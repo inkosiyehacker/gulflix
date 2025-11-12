@@ -69,26 +69,6 @@ export default function App({ Component, pageProps }: any) {
         <link rel="shortcut icon" href="/images/logo512.png" />
       </Head>
 
-      {/* ✅ Hilltop Ads Script */}
-      <Script
-        id="hilltop-ads"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: `
-            (function(slw){
-              var d = document,
-                  s = d.createElement('script'),
-                  l = d.scripts[d.scripts.length - 1];
-              s.settings = slw || {};
-              s.src = "//impeccable-sense.com/c.Da9-6ybr2H5nlNS/WCQY9DNijjY/5-OfTlk/5pOfCI0j2ENojVkp5rOITMkr5O";
-              s.async = true;
-              s.referrerPolicy = 'no-referrer-when-downgrade';
-              l.parentNode.insertBefore(s, l);
-            })({});
-          `,
-        }}
-      />
-
       {/* ✅ Monetag Ads Script */}
       <Script
         id="monetag-ads"
