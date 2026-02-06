@@ -1,6 +1,6 @@
 {
   "app_live": true,
-  "force_update": false,
+  "force_update": true,
   "latest_version": 1,
   "message": "Welcome to VZX Player",
   "show_message": true
